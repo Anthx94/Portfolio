@@ -92,6 +92,7 @@ li a:hover:not(.active) {
     margin-left: 27%;
     width: 10%;
     margin-top: 10%;
+    border-radius: 50%;
 }
 
 .pAboutMe{
