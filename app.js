@@ -1,5 +1,6 @@
 'use strict';
 
+// Light and Dark themes
 const switcher = document.querySelector('.btn');
 
 switcher.addEventListener('click', function() {
