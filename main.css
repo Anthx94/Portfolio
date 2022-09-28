@@ -35,6 +35,8 @@ h1{
     --fontColor: var(--black);
     --btnBg: var(--blue);
     --btnFontColor: var(--white);
+    --activeBg: var(--white);
+    --liaHoverNotActive: whitesmoke;
 }
 
 .dark-theme {
@@ -42,6 +44,9 @@ h1{
     --fontColor: var(--white);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
+    --activeBg: var(--blue);
+    --liaColor: var(--white);
+    --liaHoverNotActive: rgb(28, 28, 70);
 }
 
 
@@ -53,7 +58,7 @@ h1{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(126, 126, 126);
     position: fixed;
     top: 0;
     width: 100%;
@@ -65,18 +70,19 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: var(--liaColor);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: var(--liaHoverNotActive);
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: var(--activeBg);
 }
 
 
