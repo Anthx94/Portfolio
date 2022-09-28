@@ -1,7 +1,6 @@
 body {
     background: var(--bg);
     color: var(--fontColor);
-    font-family: helvetica;
     margin: 0;
 }
 
@@ -19,7 +18,7 @@ h1{
 }
 
 .btn {
-    position: absolute;
+    position: fixed;
     top: 1%;
     height: 50px;
     width: 50px;
@@ -37,6 +36,7 @@ h1{
     --btnFontColor: var(--white);
     --activeBg: var(--white);
     --liaHoverNotActive: whitesmoke;
+    --aAboutMeColor: var(--black);
 }
 
 .dark-theme {
@@ -47,6 +47,7 @@ h1{
     --activeBg: var(--blue);
     --liaColor: var(--white);
     --liaHoverNotActive: rgb(28, 28, 70);
+    --aAboutMeColor: var(--white);
 }
 
 
@@ -60,6 +61,7 @@ h1{
     overflow: hidden;
     background-color: rgb(126, 126, 126);
     position: fixed;
+    font-family: helvetica;
     top: 0;
     width: 100%;
 }
@@ -97,4 +99,11 @@ li a:hover:not(.active) {
 
 .pAboutMe{
     margin-left: 40%;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.aAboutMe{
+    text-decoration: none;
+    color: var(--aAboutMeColor);
 }
