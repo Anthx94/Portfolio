@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
@@ -37,6 +37,7 @@ h1{
     --activeBg: var(--white);
     --liaHoverNotActive: whitesmoke;
     --aAboutMeColor: var(--black);
+    --borderColorIndexBlock: var(--black);
 }
 
 .dark-theme {
@@ -48,6 +49,7 @@ h1{
     --liaColor: var(--white);
     --liaHoverNotActive: rgb(28, 28, 70);
     --aAboutMeColor: var(--white);
+    --borderColorIndexBlock: var(--white);
 }
 
 
@@ -88,22 +90,34 @@ li a:hover:not(.active) {
 }
 
 
+/* - Index Page- */
+
+.divIndexBlock {
+    border: solid 0.3em;
+    border-radius: 40px;
+    border-color: var(--borderColorIndexBlock);
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+
 /* - About Me Page - */
 
-.imgIdentity{
+.imgIdentity {
     margin-left: 27%;
     width: 10%;
     margin-top: 10%;
     border-radius: 50%;
 }
 
-.pAboutMe{
+.pAboutMe {
     margin-left: 40%;
     font-family: arial;
     font-size: 20px;
 }
 
-.aAboutMe{
+.aAboutMe {
     text-decoration: none;
     color: var(--aAboutMeColor);
 }
