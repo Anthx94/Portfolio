@@ -1,0 +1,40 @@
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+:root {
+    --blue: rgb(15, 15, 37);
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+.btn {
+    position: absolute;
+    top: 1.5%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--blue);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--blue);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+h1{
+    text-align: center;
+}
