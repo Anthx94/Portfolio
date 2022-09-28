@@ -2,7 +2,15 @@ body {
     background: var(--bg);
     color: var(--fontColor);
     font-family: helvetica;
+    margin: 0;
 }
+
+h1{
+    text-align: center;
+}
+
+
+/* - Light and Dark themes - */
 
 :root {
     --blue: rgb(15, 15, 37);
@@ -12,13 +20,14 @@ body {
 
 .btn {
     position: absolute;
-    top: 1.5%;
+    top: 1%;
     height: 50px;
     width: 50px;
     border-radius: 50%;
     border: none;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
+    margin-left: 90%;
 }
 
 .light-theme {
@@ -35,6 +44,50 @@ body {
     --btnFontColor: var(--black);
 }
 
-h1{
+
+
+/* - Navigation Bar - */
+
+.ulMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/* - About Me Page - */
+
+.imgIdentity{
+    margin-left: 27%;
+    width: 10%;
+    margin-top: 10%;
+}
+
+.pAboutMe{
+    margin-left: 40%;
 }
