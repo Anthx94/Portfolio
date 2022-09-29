@@ -18,4 +18,4 @@ switcher.addEventListener('click', function () {
 });
 
 
-// Text Inde Block Animation
+// Text Index Block Animation
