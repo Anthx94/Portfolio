@@ -1,21 +1,26 @@
-'use strict';
+// On page load set the theme.
+(function () {
+    let onpageLoad = localStorage.getItem("theme");
+    let element = document.body;
+    element.classList.add(onpageLoad);
 
-// Light and Dark themes
-const switcher = document.querySelector('.btn');
+    document.getElementById("btn").innerHTML = "Light";
+})();
 
-switcher.addEventListener('click', function () {
-    document.body.classList.toggle('light-theme');
-    document.body.classList.toggle('dark-theme');
 
-    const className = document.body.className;
-    if (className == "light-theme") {
-        this.textContent = "Dark";
+function themeToggle() {
+    let element = document.body;
+    element.classList.toggle("dark-mode");
+    var name = document.querySelector('.btn');
+
+    let theme = localStorage.getItem("theme");
+    if (theme && theme === "dark-mode") {
+        localStorage.setItem("theme", "");
+        localStorage.setItem("mode", "Light");
+        name.innerHTML = "Dark";
     } else {
-        this.textContent = "Light";
+        localStorage.setItem("theme", "dark-mode");
+        localStorage.setItem("mode", "Dark");
+        name.innerHTML = "Light";
     }
-
-    console.log('current class name: ' + className);
-});
-
-
-// Text Index Block Animation
+}

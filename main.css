@@ -40,7 +40,7 @@ h1 {
     --borderColorIndexBlock: var(--black);
 }
 
-.dark-theme {
+.dark-mode {
     --bg: var(--blue);
     --fontColor: var(--white);
     --btnBg: var(--white);
@@ -91,9 +91,8 @@ li a:hover:not(.active) {
 
 
 /* - Footer - */
-footer{
+footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -102,7 +101,7 @@ footer{
     font-size: 10px;
 }
 
-hr{
+hr {
     width: 95%;
 }
 
