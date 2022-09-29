@@ -1,7 +1,14 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+
 body {
     background: var(--bg);
     color: var(--fontColor);
     margin: 0;
+    position: relative;
+    min-height: 100%;
 }
 
 h1 {
@@ -92,7 +99,7 @@ li a:hover:not(.active) {
 
 /* - Footer - */
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -128,9 +135,11 @@ hr {
 }
 
 .pAboutMe {
-    margin-left: 40%;
+    /*margin-left: 40%;*/
     font-family: arial;
     font-size: 20px;
+    display: inline-block;
+    text-align: left;
 }
 
 .aAboutMe {
