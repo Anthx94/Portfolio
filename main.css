@@ -57,6 +57,7 @@ h1 {
     color: var(--btnFontColor);
     background-color: var(--btnBg);
     margin-left: 90%;
+    box-shadow: var(--boxShadowBTN);
 }
 
 .light-theme {
@@ -68,6 +69,7 @@ h1 {
     --liaHoverNotActive: whitesmoke;
     --aAboutMeColor: var(--black);
     --borderColorIndexBlock: var(--black);
+    --boxShadowBTN: none;
 }
 
 .dark-mode {
@@ -80,6 +82,7 @@ h1 {
     --liaHoverNotActive: rgb(28, 28, 70);
     --aAboutMeColor: var(--white);
     --borderColorIndexBlock: var(--white);
+    --boxShadowBTN: 0px 0px 15px whitesmoke;
 }
 
 
