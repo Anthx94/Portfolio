@@ -173,6 +173,12 @@ hr {
     color: var(--aAboutMeColor);
 }
 
+.divAboutBlockA {
+    margin-left: 40%;
+    font-size: 20px;
+    font-family: Arial;
+}
+
 .divAboutBlock {
     border: solid 0.3em;
     border-radius: 40px;
@@ -180,4 +186,56 @@ hr {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 10%;
+}
+
+
+@media only screen and (max-width:880px) {
+
+    /* - Navigation Bar - */
+    li a {
+        display: block;
+        color: var(--liaColor);
+        text-align: center;
+        padding: 14px 14px;
+        text-decoration: none;
+        font-size: auto;
+    }
+
+    /* - Button Dark Mode - */
+    .btn {
+        position: fixed;
+        top: 7%;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: none;
+        color: var(--btnFontColor);
+        background-color: var(--btnBg);
+        margin-left: 85%;
+        box-shadow: var(--boxShadowBTN);
+    }
+
+    /* - Index Page- */
+    .divIndexBlock {
+        border: solid 0.3em;
+        border-radius: 40px;
+        border-color: var(--borderColorIndexBlock);
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 7%;
+    }
+
+    /* - About Me Page - */
+    .divAboutBlock {
+        border: solid 0.3em;
+        border-radius: 40px;
+        border-color: var(--borderColorIndexBlock);
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20%;
+    }
+
+    .divAboutBlockA {
+        margin-left: 5%;
+    }
 }
