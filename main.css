@@ -16,7 +16,7 @@ h1 {
 }
 
 
-/* SCROLLBAR */
+/* - SCROLLBAR - */
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -39,8 +39,8 @@ h1 {
 
 
 
-/* - Light and Dark themes - */
 
+/* - Light and Dark themes - */
 :root {
     --blue: rgb(15, 15, 37);
     --white: #FFFFFF;
@@ -85,7 +85,6 @@ h1 {
 
 
 /* - Navigation Bar - */
-
 .ulMenu {
     list-style-type: none;
     margin: 0;
@@ -136,8 +135,8 @@ hr {
 }
 
 
-/* - Index Page- */
 
+/* - Index Page- */
 .divIndexBlock {
     border: solid 0.3em;
     border-radius: 40px;
@@ -148,8 +147,8 @@ hr {
 }
 
 
-/* - About Me Page - */
 
+/* - About Me Page - */
 .imgIdentity {
     margin-left: 10%;
     width: 15%;
