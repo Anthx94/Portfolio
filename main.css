@@ -160,8 +160,9 @@ hr {
     /*margin-left: 40%;*/
     font-family: arial;
     font-size: 20px;
-    display: inline-block;
     text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .aAboutMe {
