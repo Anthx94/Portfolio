@@ -188,6 +188,29 @@ hr {
     margin-top: 10%;
 }
 
+.parentDivAboutMeTable {
+    text-align: center;
+}
+
+.divTableAboutMe1,
+.divTableAboutMe2 {
+    border: solid 0.3em;
+    border-radius: 40px;
+    border-color: var(--borderColorIndexBlock);
+    margin-left: 3%;
+    margin-right: 3%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 35%;
+}
+
+.pDiplomas {
+    text-align: left;
+    margin-left: 15%;
+    font-family: Arial;
+    font-size: 20px;
+}
+
 
 @media screen and (max-device-width:880px) {
 
@@ -244,6 +267,16 @@ hr {
         width: 30%;
         margin-top: -5%;
         border-radius: 50%;
+    }
+
+    .divTableAboutMe1,
+    .divTableAboutMe2 {
+        border: solid 0.3em;
+        border-radius: 40px;
+        border-color: var(--borderColorIndexBlock);
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 35%;
     }
 }
 
@@ -303,6 +336,16 @@ hr {
         margin-top: -5%;
         border-radius: 50%;
     }
+
+    .divTableAboutMe1,
+    .divTableAboutMe2 {
+        border: solid 0.3em;
+        border-radius: 40px;
+        border-color: var(--borderColorIndexBlock);
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 35%;
+    }
 }
 
 @media screen and (max-device-width:320px) {
@@ -360,5 +403,15 @@ hr {
         width: 22%;
         margin-top: -5%;
         border-radius: 50%;
+    }
+
+    .divTableAboutMe1,
+    .divTableAboutMe2 {
+        border: solid 0.3em;
+        border-radius: 40px;
+        border-color: var(--borderColorIndexBlock);
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 35%;
     }
 }
