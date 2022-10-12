@@ -238,6 +238,13 @@ hr {
     .divAboutBlockA {
         margin-left: 5%;
     }
+
+    .imgIdentity {
+        margin-left: 2%;
+        width: 30%;
+        margin-top: -5%;
+        border-radius: 50%;
+    }
 }
 
 @media screen and (max-device-width:375px) {
@@ -289,6 +296,13 @@ hr {
     .divAboutBlockA {
         margin-left: 5%;
     }
+
+    .imgIdentity {
+        margin-left: 2%;
+        width: 25%;
+        margin-top: -5%;
+        border-radius: 50%;
+    }
 }
 
 @media screen and (max-device-width:320px) {
@@ -339,5 +353,12 @@ hr {
 
     .divAboutBlockA {
         margin-left: 1%;
+    }
+
+    .imgIdentity {
+        margin-left: 2%;
+        width: 22%;
+        margin-top: -5%;
+        border-radius: 50%;
     }
 }
