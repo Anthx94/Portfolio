@@ -274,9 +274,13 @@ hr {
         border: solid 0.3em;
         border-radius: 40px;
         border-color: var(--borderColorIndexBlock);
-        margin-left: 3%;
-        margin-right: 3%;
-        width: 35%;
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 80%;
+    }
+
+    .divTableAboutMe2 {
+        margin-top: 3%;
     }
 }
 
@@ -344,7 +348,11 @@ hr {
         border-color: var(--borderColorIndexBlock);
         margin-left: 3%;
         margin-right: 3%;
-        width: 35%;
+        width: 80%;
+    }
+
+    .divTableAboutMe2 {
+        margin-top: 3%;
     }
 }
 
@@ -412,6 +420,10 @@ hr {
         border-color: var(--borderColorIndexBlock);
         margin-left: 3%;
         margin-right: 3%;
-        width: 35%;
+        width: 80%;
+    }
+
+    .divTableAboutMe2 {
+        margin-top: 3%;
     }
 }
