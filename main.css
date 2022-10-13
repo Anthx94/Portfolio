@@ -202,6 +202,10 @@ hr {
     }
 }
 
+.gifIndex {
+    width: 5%;
+}
+
 
 /* - About Me Page - */
 .imgIdentity {
@@ -309,6 +313,10 @@ hr {
         margin-top: 10%;
     }
 
+    .gifIndex {
+        width: 15%;
+    }
+
     /* - About Me Page - */
     .divAboutBlock {
         border: solid 0.3em;
@@ -390,6 +398,10 @@ hr {
         margin-top: 10%;
     }
 
+    .gifIndex {
+        width: 15%;
+    }
+
     /* - About Me Page - */
     .divAboutBlock {
         border: solid 0.3em;
@@ -469,6 +481,10 @@ hr {
         font-family: firamonobold; 
         text-align: left; 
         margin-top: 10%;
+    }
+
+    .gifIndex {
+        width: 15%;
     }
 
     /* - About Me Page - */
