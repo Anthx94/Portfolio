@@ -93,7 +93,6 @@ h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: fixed;
     font-family: helvetica;
     top: 0;
     width: 100%;
@@ -242,7 +241,7 @@ hr {
     border-color: var(--borderColorIndexBlock);
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
 .parentDivAboutMeTable {
