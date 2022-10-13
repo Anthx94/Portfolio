@@ -149,9 +149,18 @@ hr {
     margin-top: 7%;
 }
 
+.h1Index {
+    padding-left: 7%;
+    font-size: 4.5rem;
+    line-height: 5rem;
+    font-family: firamonobold; 
+    text-align: left; 
+    margin-top: 10%;
+}
+
 .gradient-background {
     background: linear-gradient(249deg, #00f1ff, #ff00db);
-    background-size: 120% 120%;
+    background-size: 100% 100%;
     animation: gradient-animation 12s ease infinite;
 }
 
@@ -168,7 +177,6 @@ hr {
         background-position: 0% 50%;
     }
 }
-
 
 
 /* - About Me Page - */
@@ -268,6 +276,15 @@ hr {
         margin-top: 7%;
     }
 
+    .h1Index {
+        padding-left: 7%;
+        font-size: 2rem;
+        line-height: 3rem;
+        font-family: firamonobold; 
+        text-align: left; 
+        margin-top: 10%;
+    }
+
     /* - About Me Page - */
     .divAboutBlock {
         border: solid 0.3em;
@@ -340,6 +357,15 @@ hr {
         margin-top: 7%;
     }
 
+    .h1Index {
+        padding-left: 7%;
+        font-size: 2rem;
+        line-height: 3rem;
+        font-family: firamonobold; 
+        text-align: left; 
+        margin-top: 10%;
+    }
+
     /* - About Me Page - */
     .divAboutBlock {
         border: solid 0.3em;
@@ -410,6 +436,15 @@ hr {
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 7%;
+    }
+
+    .h1Index {
+        padding-left: 7%;
+        font-size: 2rem;
+        line-height: 3rem;
+        font-family: firamonobold; 
+        text-align: left; 
+        margin-top: 10%;
     }
 
     /* - About Me Page - */
