@@ -93,7 +93,6 @@ h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(160, 160, 160);
     position: fixed;
     font-family: helvetica;
     top: 0;
@@ -115,10 +114,12 @@ li a {
 
 li a:hover:not(.active) {
     background-color: var(--liaHoverNotActive);
+    border-radius: 50px;
 }
 
 .active {
-    background-color: var(--activeBg);
+    background-color: var(--liaHoverNotActive);
+    border-radius: 50px;
 }
 
 
@@ -145,7 +146,6 @@ hr {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(160, 160, 160, 0);
     position: fixed;
     font-family: helvetica;
     top: 0;
@@ -154,6 +154,7 @@ hr {
 
 .liIndex a:hover:not(.active){
     background-color: #ffffff34;
+    border-radius: 50px;
 }
 
 .divIndexBlock {
