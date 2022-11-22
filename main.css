@@ -344,6 +344,7 @@ hr {
         width: 30%;
         margin-top: -5%;
         border-radius: 50%;
+        border: solid 0.2em;
     }
 
     .divTableAboutMe1,
@@ -357,6 +358,12 @@ hr {
     }
 
     .divTableAboutMe2 {
+        margin-top: 3%;
+    }
+
+    .ILogo {
+        text-align: center;
+        font-size: 20px;
         margin-top: 3%;
     }
 }
@@ -429,6 +436,7 @@ hr {
         width: 25%;
         margin-top: -5%;
         border-radius: 50%;
+        border: solid 0.2em;
     }
 
     .divTableAboutMe1,
@@ -442,6 +450,12 @@ hr {
     }
 
     .divTableAboutMe2 {
+        margin-top: 3%;
+    }
+
+    .ILogo {
+        text-align: center;
+        font-size: 20px;
         margin-top: 3%;
     }
 }
@@ -514,6 +528,7 @@ hr {
         width: 22%;
         margin-top: -5%;
         border-radius: 50%;
+        border: solid 0.2em;
     }
 
     .divTableAboutMe1,
@@ -527,6 +542,12 @@ hr {
     }
 
     .divTableAboutMe2 {
+        margin-top: 3%;
+    }
+
+    .ILogo {
+        text-align: center;
+        font-size: 20px;
         margin-top: 3%;
     }
 }
