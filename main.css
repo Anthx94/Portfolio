@@ -175,7 +175,8 @@ hr {
 }
 
 .gradient-background {
-    background: linear-gradient(249deg, #00f1ff, #ff00db);
+    /*background: linear-gradient(249deg, #00f1ff, #ff00db);*/
+    background: linear-gradient(249deg, #43434b, #ffffff);
     background-size: 120% 120%;
     animation: gradient-animation 10s ease infinite;
 }
